@@ -72,15 +72,31 @@
 }
 
 .polymorph{
-  @apply rounded-full bg-gray-600 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 border-[2px] border-white;
-}
-
-.polymorph-item{
-  @apply rounded-full bg-gray-600 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border-[2px] border-white;
+  @apply bg-gray-600 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 border-[1.5px] border-white;
 }
 
 .item-glass {
-  @apply border-[1px] border-transparent rounded-full px-3 py-2 hover:bg-gray-800 hover:bg-clip-padding hover:backdrop-filter hover:backdrop-blur-md hover:bg-opacity-40 hover:border-white transition-all duration-100 delay-0 ease-in-out;
+  @apply border-[1px] border-transparent hover:opacity-90 px-3 py-2 hover:bg-gray-800 hover:bg-clip-padding hover:backdrop-filter hover:backdrop-blur-md hover:bg-opacity-40 hover:border-white transition-all duration-100 delay-0 ease-in-out;
+}
+
+.header_text
+{
+  @apply font-poppins font-bold text-5xl;
+}
+
+.subheader_text
+{
+  @apply font-poppins font-medium text-4xl;
+}
+
+.content_text
+{
+  @apply font-poppins font-normal text-2xl;
+}
+
+.under_text
+{
+  @apply font-poppins font-thin text-sm text-gray-300;
 }
 
 .flex-center {

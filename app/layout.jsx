@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
         <html lang='en'>
             <body>
                 <div className='main'>{/* <div className='gradient' /> */}</div>
-                <main className={`app font-inter`}>
+                <main className={`app font-poppins overflow-x-hidden`}>
                     <Navbar />
                     {children}
                 </main>
